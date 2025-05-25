@@ -1,12 +1,12 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://oushiei120.github.io/tyagyou_tei/manifest.json",
+  "@id": "https://oushiei120.github.io/pdftomanifest//manifest.json",
   "@type": "sc:Manifest",
   "label": "Example Manifest from PDF",
   "metadata": [
     {
       "label": "Generated from",
-      "value": "/Users/oushiei/Documents/GitHub/tyagyou_tei/pdftomanifest_test/茶经.pdf"
+      "value": "pdf/茶经.pdf"
     }
   ],
   "description": "Sample P2 manifest with images from PDF",
@@ -15,758 +15,758 @@
       "@type": "sc:Sequence",
       "canvases": [
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/00.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/00.json",
           "@type": "sc:Canvas",
           "label": "Canvas 0",
           "height": 1956,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-0.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-0.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/00/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/00/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1956,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/00",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/00",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/00.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/00.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/01.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/01.json",
           "@type": "sc:Canvas",
           "label": "Canvas 1",
           "height": 1955,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-1.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-1.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/01/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/01/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1955,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/01",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/01",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/01.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/01.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/02.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/02.json",
           "@type": "sc:Canvas",
           "label": "Canvas 2",
           "height": 1972,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-2.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-2.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/02/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/02/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1972,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/02",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/02",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/02.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/02.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/03.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/03.json",
           "@type": "sc:Canvas",
           "label": "Canvas 3",
           "height": 1972,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-3.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-3.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/03/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/03/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1972,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/03",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/03",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/03.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/03.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/04.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/04.json",
           "@type": "sc:Canvas",
           "label": "Canvas 4",
           "height": 1971,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-4.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-4.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/04/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/04/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1971,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/04",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/04",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/04.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/04.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/05.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/05.json",
           "@type": "sc:Canvas",
           "label": "Canvas 5",
           "height": 1985,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-5.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-5.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/05/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/05/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1985,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/05",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/05",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/05.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/05.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/06.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/06.json",
           "@type": "sc:Canvas",
           "label": "Canvas 6",
           "height": 1988,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-6.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-6.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/06/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/06/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1988,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/06",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/06",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/06.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/06.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/07.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/07.json",
           "@type": "sc:Canvas",
           "label": "Canvas 7",
           "height": 2007,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-7.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-7.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/07/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/07/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2007,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/07",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/07",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/07.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/07.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/08.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/08.json",
           "@type": "sc:Canvas",
           "label": "Canvas 8",
           "height": 2002,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-8.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-8.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/08/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/08/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2002,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/08",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/08",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/08.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/08.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/09.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/09.json",
           "@type": "sc:Canvas",
           "label": "Canvas 9",
           "height": 1966,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-9.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-9.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/09/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/09/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1966,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/09",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/09",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/09.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/09.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/10.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/10.json",
           "@type": "sc:Canvas",
           "label": "Canvas 10",
           "height": 2000,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-10.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-10.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/10/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/10/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2000,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/10",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/10",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/10.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/10.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/11.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/11.json",
           "@type": "sc:Canvas",
           "label": "Canvas 11",
           "height": 1996,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-11.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-11.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/11/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/11/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1996,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/11",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/11",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/11.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/11.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/12.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/12.json",
           "@type": "sc:Canvas",
           "label": "Canvas 12",
           "height": 2020,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-12.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-12.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/12/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/12/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2020,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/12",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/12",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/12.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/12.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/13.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/13.json",
           "@type": "sc:Canvas",
           "label": "Canvas 13",
           "height": 2016,
           "width": 2353,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-13.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-13.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/13/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/13/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2016,
                 "width": 2353,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/13",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/13",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/13.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/13.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/14.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/14.json",
           "@type": "sc:Canvas",
           "label": "Canvas 14",
           "height": 2014,
           "width": 2353,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-14.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-14.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/14/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/14/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2014,
                 "width": 2353,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/14",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/14",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/14.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/14.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/15.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/15.json",
           "@type": "sc:Canvas",
           "label": "Canvas 15",
           "height": 2003,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-15.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-15.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/15/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/15/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2003,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/15",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/15",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/15.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/15.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/16.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/16.json",
           "@type": "sc:Canvas",
           "label": "Canvas 16",
           "height": 2003,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-16.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-16.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/16/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/16/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2003,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/16",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/16",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/16.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/16.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/17.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/17.json",
           "@type": "sc:Canvas",
           "label": "Canvas 17",
           "height": 1999,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-17.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-17.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/17/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/17/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1999,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/17",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/17",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/17.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/17.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/18.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/18.json",
           "@type": "sc:Canvas",
           "label": "Canvas 18",
           "height": 1993,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-18.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-18.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/18/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/18/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1993,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/18",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/18",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/18.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/18.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/19.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/19.json",
           "@type": "sc:Canvas",
           "label": "Canvas 19",
           "height": 1998,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-19.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-19.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/19/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/19/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1998,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/19",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/19",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/19.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/19.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/20.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/20.json",
           "@type": "sc:Canvas",
           "label": "Canvas 20",
           "height": 1984,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-20.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-20.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/20/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/20/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1984,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/20",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/20",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/20.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/20.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/21.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/21.json",
           "@type": "sc:Canvas",
           "label": "Canvas 21",
           "height": 1991,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-21.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-21.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/21/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/21/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1991,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/21",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/21",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/21.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/21.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/22.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/22.json",
           "@type": "sc:Canvas",
           "label": "Canvas 22",
           "height": 1998,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-22.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-22.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/22/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/22/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1998,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/22",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/22",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/22.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/22.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/23.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/23.json",
           "@type": "sc:Canvas",
           "label": "Canvas 23",
           "height": 1999,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-23.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-23.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/23/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/23/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1999,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/23",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/23",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/23.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/23.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/24.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/24.json",
           "@type": "sc:Canvas",
           "label": "Canvas 24",
           "height": 2011,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-24.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-24.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/24/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/24/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 2011,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/24",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/24",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/24.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/24.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/25.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/25.json",
           "@type": "sc:Canvas",
           "label": "Canvas 25",
           "height": 1973,
           "width": 2355,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-25.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-25.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/25/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/25/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1973,
                 "width": 2355,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/25",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/25",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/25.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/25.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/26.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/26.json",
           "@type": "sc:Canvas",
           "label": "Canvas 26",
           "height": 1968,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-26.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-26.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/26/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/26/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1968,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/26",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/26",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/26.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/26.json"
             }
           ]
         },
         {
-          "@id": "https://oushiei120.github.io/tyagyou_tei/canvas/27.json",
+          "@id": "https://oushiei120.github.io/pdftomanifest//canvas/27.json",
           "@type": "sc:Canvas",
           "label": "Canvas 27",
           "height": 1981,
           "width": 2354,
           "images": [
             {
-              "@id": "https://oushiei120.github.io/tyagyou_tei/annotation/page-27.json",
+              "@id": "https://oushiei120.github.io/pdftomanifest//annotation/page-27.json",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://oushiei120.github.io/tyagyou_tei/images/27/full/full/0/default.jpg",
+                "@id": "https://oushiei120.github.io/pdftomanifest//images/27/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "height": 1981,
                 "width": 2354,
                 "service": {
                   "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://oushiei120.github.io/tyagyou_tei/images/27",
+                  "@id": "https://oushiei120.github.io/pdftomanifest//images/27",
                   "profile": "http://iiif.io/api/image/2/level0.json"
                 }
               },
-              "on": "https://oushiei120.github.io/tyagyou_tei/canvas/27.json"
+              "on": "https://oushiei120.github.io/pdftomanifest//canvas/27.json"
             }
           ]
         }
