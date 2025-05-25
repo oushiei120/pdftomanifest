@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>茶经 Viewer</title>
+    <!-- Universal Viewer CSS and JS removed -->
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 0; height: 100vh; display: flex; flex-direction: column; }
+        h1 { text-align: center; margin: 1em 0; }
+        /* Adjust iframe style to fill available space */
+        iframe {
+            width: 100%;
+            height: calc(100vh - 4em); /* Adjust height as needed, considering the h1 */
+            border: none; /* Remove default iframe border */
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>茶经 Viewer</h1>
+    <!-- Universal Viewer div removed -->
+    <!-- Add iframe for Mirador Viewer -->
+    <iframe src="https://projectmirador.org/embed/?manifest=https://oushiei120.github.io/tyagyou_tei/manifest.json"
+            allowfullscreen="true">
+    </iframe>
+</body>
+</html>

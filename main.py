@@ -19,19 +19,34 @@ def ensure_dirs():
 
 def extract_images_from_pdf(pdf_path):
     doc = fitz.open(pdf_path)
-    images = []
-    zoom_x = 4  # 你可以根据需要调整
-    zoom_y = 4
-    mat = fitz.Matrix(zoom_x, zoom_y)
-    for i in range(len(doc)):
-        page = doc[i]  # 这里要给 page 赋值
-        pix = page.get_pixmap(matrix=mat, alpha=False)
-        target_out = Path(extract_path, f"{i:02}.png")
-        pix.save(str(target_out))
-        images.append(target_out)
-    print(f"finished extracting {len(images)} images at {zoom_x}x zoom")
-    return images
+    image_count = 0
 
+    images = []
+    for i in range(len(doc)):
+        page_num = i + 1
+        print(f"extracting images from page {page_num}..")
+
+        page = doc.load_page(i)
+        count_per_page = 1
+        for img in page.get_images():
+            xref = img[0]
+            pix = fitz.Pixmap(doc, xref)
+            target_out = Path(extract_path, f"{image_count:02}.png")
+
+            if pix.n - pix.alpha < 4:  # this is GRAY or RGB
+                pix.save(str(target_out))
+            else:  # CMYK: convert to RGB first
+                pix = fitz.Pixmap(fitz.csRGB, pix)
+                pix.save(str(target_out))
+            pix = None
+
+            images.append(target_out)
+
+            count_per_page = count_per_page + 1
+            image_count = image_count + 1
+
+    print(f"finished extracting {image_count} images")
+    return images
 
 
 
